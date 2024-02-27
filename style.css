@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Neucha", handwriting;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #3a4452;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+    width: 400px;
+    height: 400px;
+    border-radius: 23px;
+    border: 2.3px solid aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.counter .count {
+    font-size: 45px;
+    border: 1.2px solid grey;
+    border-radius: 13px;
+    padding: 15px 30px;
+}
+
+.counter .operations {
+    display: flex;
+    gap: 60px;
+}
+
+.counter .operations i {
+    font-size: 30px;
+    cursor: pointer;
+    border: 1.2px solid grey;
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.counter .operations i:hover {
+    background: aqua;
+}
+.drekcontainer {
+    background-color: black;
+}
